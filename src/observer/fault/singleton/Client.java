@@ -8,9 +8,9 @@ import java.util.List;
  */
 public class Client {
 
-    private MySingleton dbService;
+    private IMySingleton dbService;
 
-    class Person {
+    public static class Person {
         private String name;
 
         Person(String name) {
@@ -18,8 +18,8 @@ public class Client {
         }
     }
 
-    public Client() {
-        dbService = MySingleton.getInstance();
+    public Client(IMySingleton dbService) {
+        this.dbService = dbService;
     }
 
     // Query: ahmet
@@ -34,7 +34,8 @@ public class Client {
         return list.toArray(new Person[list.size()]);
     }
 
-
-
+    public static void main(String[] args) {
+        new Client(MySingleton.getInstance());
+    }
 
 }
