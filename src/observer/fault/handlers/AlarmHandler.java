@@ -2,15 +2,14 @@ package observer.fault.handlers;
 
 import observer.fault.Fault;
 import observer.fault.FaultManager;
-import observer.fault.IHandler;
 
 /**
  * Created by ender on 20/01/15.
  */
-public class AlarmHandler implements IHandler{
+public class AlarmHandler extends AbstractHandler {
 
     public AlarmHandler(FaultManager manager) {
-        manager.register(this);
+        super(manager);
     }
 
     @Override
@@ -18,4 +17,5 @@ public class AlarmHandler implements IHandler{
         // Send alarm..
         throw new RuntimeException();
     }
+
 }

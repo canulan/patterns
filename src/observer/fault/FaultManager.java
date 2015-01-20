@@ -1,6 +1,7 @@
 package observer.fault;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -21,6 +22,7 @@ public class FaultManager {
     public void handle(Exception e) {
         // Send exception to registered handlers
         Fault fault = new Fault(e);
+        Collections.sort(handlers);
         for(IHandler handler:handlers) {
             try {
                 System.out.println("Sending fault to " + handler);
