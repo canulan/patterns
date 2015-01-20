@@ -1,4 +1,4 @@
-package observer.fault.singleton.dao;
+package dao;
 
 /**
  * Created by ender on 20/01/15.

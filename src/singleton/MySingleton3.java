@@ -1,4 +1,4 @@
-package observer.fault.singleton;
+package singleton;
 
 /**
  * Created by ender on 20/01/15.

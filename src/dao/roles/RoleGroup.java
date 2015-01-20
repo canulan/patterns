@@ -1,4 +1,4 @@
-package observer.fault.singleton.dao.roles;
+package dao.roles;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,7 +1,7 @@
 package test.test;
 
-import observer.fault.singleton.Client;
-import observer.fault.singleton.IMySingleton;
+import singleton.Client;
+import singleton.IMySingleton;
 import org.junit.Test;
 
 /**

@@ -1,7 +1,7 @@
-package observer.fault.singleton.dao;
+package dao;
 
-import observer.fault.singleton.dao.roles.Role;
-import observer.fault.singleton.dao.roles.RoleGroup;
+import dao.roles.Role;
+import dao.roles.RoleGroup;
 
 import java.util.ArrayList;
 import java.util.HashMap;
