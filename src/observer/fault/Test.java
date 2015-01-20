@@ -17,7 +17,6 @@ public class Test {
         strings.add("B");
         Collections.sort(strings);
         System.out.println(strings);
-
     }
 
 }
