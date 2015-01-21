@@ -15,7 +15,6 @@ public class AlarmHandler extends AbstractHandler {
     @Override
     public void handle(Fault fault) {
         // Send alarm..
-        throw new RuntimeException();
     }
 
 }
