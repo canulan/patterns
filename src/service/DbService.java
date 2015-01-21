@@ -6,18 +6,23 @@ import java.util.List;
 /**
  * Created by ender on 21/01/15.
  */
-public class DbService {
+public class DbService implements IDbService {
+
+    public DbService() {
+    }
 
     public Connection getConnection() {
-        // get connection
+        System.out.println("Get connection");
         return null;
     }
 
     public void closeConnection() {
+        System.out.println("Close connection");
 
     }
 
     public List<Object> query(String query) {
+        System.out.println("Query");
         return null;
     }
 
