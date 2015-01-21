@@ -17,8 +17,20 @@ public class User {
         return mail;
     }
 
-    public void setMail(String mail) {
-        this.mail = mail;
+    public String getPass() {
+        return pass;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "mail='" + mail + '\'' +
+                ", pass='" + pass + '\'' +
+                '}';
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new User("ender", "123"));
     }
 
 }

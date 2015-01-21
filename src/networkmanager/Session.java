@@ -5,13 +5,12 @@ package networkmanager;
  */
 public class Session {
 
-
     private User user;
     private long createTime;
 
-    public Session(User user, long createTime) {
+    public Session(User user) {
         this.user = user;
-        this.createTime = createTime;
+        this.createTime = System.currentTimeMillis();
     }
 
     public User getUser() {
@@ -22,5 +21,11 @@ public class Session {
         return createTime;
     }
 
-
+    @Override
+    public String toString() {
+        return "Session{" +
+                "user=" + user +
+                ", createTime=" + createTime +
+                '}';
+    }
 }
