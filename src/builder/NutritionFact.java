@@ -1,4 +1,4 @@
-package nutrition;
+package builder;
 
 public class NutritionFact {
 	// Parameters initialized to default values (if any)

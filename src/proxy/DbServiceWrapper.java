@@ -1,4 +1,4 @@
-package service;
+package proxy;
 
 import java.sql.Connection;
 import java.util.List;

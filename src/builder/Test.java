@@ -1,4 +1,4 @@
-package nutrition;
+package builder;
 
 /**
  * Created by ender on 21/01/15.

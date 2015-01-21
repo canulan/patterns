@@ -1,4 +1,4 @@
-package service;
+package proxy;
 
 /**
  * Created by ender on 21/01/15.
