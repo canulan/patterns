@@ -9,11 +9,17 @@ import modular.IModule;
 public class MyModule implements IModule {
 
     private DbService dbService;
+    private QueryService queryService;
 
     @Override
     public void start(Context context) {
         dbService = new DbService();
         context.registerService(IDbService.class, dbService);
+
+        queryService = new QueryService();
+        context.registerService(IQueryService.class, queryService);
+
+        ILoggingService logService = context.getService(ILoggingService.class);
     }
 
     @Override
