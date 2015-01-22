@@ -18,7 +18,16 @@ public class DbServiceHandler implements InvocationHandler {
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("Calling method: " + method.getName() + " with params: "+args);
-        return method.invoke(realService, args);
+        // Before
+        Object invoke = null;
+        try {
+          invoke = method.invoke(realService, args);
+        } catch (Throwable t) {
+            // Throws
+            throw t;
+        }
+        // After
+        return invoke;
     }
 
 

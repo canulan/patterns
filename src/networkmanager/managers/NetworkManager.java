@@ -1,4 +1,6 @@
-package networkmanager;
+package networkmanager.managers;
+
+import networkmanager.Session;
 
 /**
  * Created by ender on 21/01/15.

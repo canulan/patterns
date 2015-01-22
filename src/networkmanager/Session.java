@@ -3,7 +3,7 @@ package networkmanager;
 /**
  * Created by ender on 21/01/15.
  */
-public class Session {
+public class Session implements ISession {
 
     private User user;
     private long createTime;
@@ -13,11 +13,17 @@ public class Session {
         this.createTime = System.currentTimeMillis();
     }
 
-    public User getUser() {
+    @Override
+    public User user() {
         return user;
     }
 
-    public long getCreateTime() {
+    public String mail() {
+        return user.getMail();
+    }
+
+    @Override
+    public long creationTime() {
         return createTime;
     }
 

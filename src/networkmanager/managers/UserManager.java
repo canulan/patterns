@@ -1,4 +1,7 @@
-package networkmanager;
+package networkmanager.managers;
+
+import networkmanager.Session;
+import networkmanager.User;
 
 import java.util.HashMap;
 import java.util.Map;
