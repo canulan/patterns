@@ -1,4 +1,4 @@
-package modular;
+package template;
 
 /**
  * Created by ender on 22/01/15.

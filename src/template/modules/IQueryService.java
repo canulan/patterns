@@ -1,4 +1,4 @@
-package modular.modules;
+package template.modules;
 
 import java.util.List;
 
