@@ -1,7 +1,7 @@
-package template.modules.fw;
+package templatemethod.modules.fw;
 
-import template.Context;
-import template.IModule;
+import templatemethod.Context;
+import templatemethod.IModule;
 
 import java.util.HashMap;
 import java.util.Map;

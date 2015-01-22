@@ -1,8 +1,8 @@
-package template.modules.parts;
+package templatemethod.modules.parts;
 
-import template.modules.IDbService;
-import template.modules.ILoggingService;
-import template.modules.fw.BaseModule;
+import templatemethod.modules.IDbService;
+import templatemethod.modules.ILoggingService;
+import templatemethod.modules.fw.BaseModule;
 
 /**
  * Created by ender on 22/01/15.

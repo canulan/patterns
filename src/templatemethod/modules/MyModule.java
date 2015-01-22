@@ -1,7 +1,7 @@
-package template.modules;
+package templatemethod.modules;
 
-import template.modules.fw.BaseModule;
-import template.modules.parts.Client;
+import templatemethod.modules.fw.BaseModule;
+import templatemethod.modules.parts.Client;
 
 /**
  * Created by ender on 22/01/15.

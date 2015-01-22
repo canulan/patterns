@@ -1,4 +1,4 @@
-package template.modules;
+package templatemethod.modules;
 
 import java.sql.Connection;
 

@@ -1,4 +1,4 @@
-package template.modules;
+package templatemethod.modules;
 
 /**
  * Created by ender on 22/01/15.
